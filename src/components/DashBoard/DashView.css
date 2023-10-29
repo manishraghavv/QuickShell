@@ -1,0 +1,31 @@
+.dashContainer{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: lavender;
+    padding: 5px 10px;
+}
+
+.dashCardContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 5px;
+    width : 300px;
+}
+
+
+
+#profileImage {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #a89c2d;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin: 2px 0;
+  }
